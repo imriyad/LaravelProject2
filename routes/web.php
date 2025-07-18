@@ -77,3 +77,5 @@ Route::middleware([
 Route::get('auth/google',[GoogleController::class,'googlePage']);
 
 Route::get('auth/google/callback',[GoogleController::class,'googleCallBack']);
+
+// adding some comments for checking
